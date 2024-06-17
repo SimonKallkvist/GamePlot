@@ -21,7 +21,7 @@ export interface Game {
 
 const useGames = () => useData<Game>('/games');
     
-    // Refactored by making a overall fetching data, with generic types
+    // Refactored by making a genreic fetching data, with generic types @ useData;
 //     {
 //     const [games, setGames] = useState<Game[]>([]);
 //     const [error, setError] = useState('');
